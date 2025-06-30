@@ -1,0 +1,35 @@
+Wikipedia has a good entry on this
+
+the biggest bugbear is always what the 5 placed asterisks represent
+
+i.e.
+  * * * * * <command to execute>
+
+# | | | | |
+# | | | | day of the week (0–6) (Sunday to Saturday; 
+# | | | month (1–12)             7 is also Sunday on some systems)
+# | | day of the month (1–31)
+# | hour (0–23)
+# minute (0–59)
+
+so you could write them as
+
+min hour dom mon dow
+
+an asterisk means "once for each of this subdivision"
+so the first asterisk stands for "every minute"
+
+The spirit of the integers when it's not an asterisk
+is for a SINGLE specific value of that subdivsion.
+so 30 in the minute place is for the thirtieth minute, i.e. half past.
+i.e. assuming hours as *, this will be once every hour, as 30 minutes past.
+
+Actually, you can specify more than 1, by comma separated integers.
+i.e. 15,45 * * * * cmd
+would be twice every hour, everyday.
+
+Of course that's twice and in similar fashion you can specify a few more.
+*/10 for minutes would be every 10 minutes, so it's equivalent to 0,10,20,30,40,50
+
+NOTE Don't be thinking that */10 in the minute column is sub-minutes,
+it is NOT. You have to resort to tricks to do subminute, and so these are awkward.

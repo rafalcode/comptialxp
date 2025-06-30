@@ -1,0 +1,13 @@
+Iwrote some notes about selinux
+and though short they seem to cpature the overal picture quite well.
+
+syntax is found on these three things (URT) in order: User, Role, Type.
+
+the motivation for T Type is that each program has different types of
+of resources. FIrts and most obvious is the execuatable . exec_t
+but these are also config files, i.e. conf_t or (in some cases)
+ports: port_t for ssh for example.
+
+As well as URT, labels are a big thing in SELinux.
+
+And that was it!

@@ -1,0 +1,22 @@
+So i refer to 
+ setuid and setgid (short for set user identity and set group identity
+and the (in) famous sticky bit.
+
+so with setuid you are non owner can run the prog with owner prvileges.
+setguid is the same but referring to group privileges.
+
+There's proviso thoguh, the rpog cannot be scripts as in the y must be bnaries!
+
+>>> sticky bit
+numeric sticky bit is "1" or "+t"
+ I think maybe it's best use-case is setting it for a directory
+which means that no files can be  deleted or (even) renamed unless you are owner
+or, (if normal permissions allow it) groupowner.
+
+I was trying to memorize the "1" part as having "echoes" of an executable
+but actually it doesn't, that would better suit SUID which is 4.
+So perhaps, you could say, the "1" is the opposite of what you'd think!
+
+
+>> setuid & 
+the SUID/setuid bit is 4 and the setgid is 2.

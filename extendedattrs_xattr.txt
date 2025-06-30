@@ -1,0 +1,5 @@
+This is about xattr and friends.
+
+A big question is whether these are part of, or only just related to ACLs. So far, it's unanswered.
+
+Well, I asked Chag, it says ACLs is part of xattr, in that xattr is a way os inserting ACLs into a system.

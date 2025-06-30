@@ -1,0 +1,6 @@
+th ACL you can add right for a second group in a directory
+which is one of its key abilities.
+setfacl is the comand though the syntax can be alittle thorny
+and you use 
+
+It ried getfacl on a folder and

@@ -1,0 +1,10 @@
+rpm is the very old package manager from redhat,
+superceded by yum to be only superceded again by dnf
+
+However it still has coverage on comtpia exams.
+
+the meaning of its options you could therefore say belong to the oldworld
+especially one whether online packages accesisbility was not usually available.
+and aslo one when it wasn't a big corporation.
+
+-q is for query and  -qa will show all installed packages
