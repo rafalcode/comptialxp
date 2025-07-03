@@ -1,0 +1,8 @@
+Thi sis the famous logical volume management
+which I iit face first when in Stands.
+
+Miguel may have done a linux course for all I know because
+it does get quite alot of coverage on compita practice questions.
+
+the main outline for it is a s follows:
+Physical volume creation, volume group creation, logical volume creation

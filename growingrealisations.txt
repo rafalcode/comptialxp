@@ -1,0 +1,32 @@
+
+
+After a fair few timed exam practice sessions
+(90 questions in 90 inutes)
+
+I was was getting the hang of them and sometimes I'd finish 90 before the time
+
+Here are some worries i had
+
+I was initially shocked to herar I would not be able to use manpages
+many of the uestion in Suehring required that I look up the manpages
+
+I also had come up with theis logic and letting hte student consultant say mapages  or even the internet
+is not such a big allowance becuas e the xam is time based, and you only get a question per minute.
+
+So you could waste a lot of time looking up manpages makg it all self-defeating.
+
+But it now turns out, nipe you do not get manpages, so it all has tom come from your head. OH DEAR.
+
+But then I thought, OK, so you will have extra time then.
+
+but then this comment I had seen twice came up, th e questions are quit e long and twisted.
+
+again it comes up here:
+https://www.reddit.com/r/CompTIA/comments/1awfsla/is_the_linux_exam_just_a_test_of_memorizing/
+
+So will it have these silly names in the question which are so distracting.
+
+
+The marking/scoring is not plain
+https://www.reddit.com/r/CompTIA/comments/79qf2u/linux_scoring_query/
+s my idea of marking myself - well, that's not going to work out either.
