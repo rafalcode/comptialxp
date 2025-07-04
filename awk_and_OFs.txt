@@ -1,0 +1,23 @@
+SO I consider myself pretty good at awk
+and it does not often come up in comptia linux+
+so when it appeared as an choice
+I did not expect to get it wrong.
+
+Here was the question:
+
+57. You are creating a Bash script of user information. Which of the following commands prints the username and real name of all
+users in /etc/passwd in a tab-separated format?
+A. cut -d: -f 1,6 /etc/passwd
+B. sed 's/://' /etc/passwd
+C. awk -F: '{print $1,$5}' OFS=“\t” /etc/passwd
+D. cat -o “\t” /etc/passwd
+
+Behind it all is knowing about the passwd file, this is where userids are kept, and indeed not where
+passwords are kept (reason is historical)
+Anyhow, field 5 is the comment field which is also used for real name. But that would be hard to know.
+
+But I also got caught with cut and the memory that's it's defautl is to work on tabs. But not on output.
+it will still use : for the output.
+
+The biggest thing is that OFS belongs to awk. It is not bash. IFS is bash. I've checked this.
+It is very much awk. I should have chosen C. but I didn't.
